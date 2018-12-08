@@ -3,7 +3,7 @@
 
 
 Test: Amazon iphone search
-#MobileSearch
+#MobileSearch #All
 Step: Enter 'mobile' in @SearchBox
 Step: Press Enter
 Step: Pause 1 sec
@@ -19,8 +19,8 @@ End
 
 
 Test: Amazon books search
-#books
-Step: Enter 'books' in @SearchBox
+#books #All
+ExtCode: Search books
 Step: Press Enter
 Step: Pause 1 sec
 Step: Click on @PrimeMember
@@ -31,7 +31,6 @@ Step: Click on @RobinSharma
 Step: Click on @FourStarAndAbove
 Step: Click on @RobinBook
 Step: Switch to new window
-Step: Click on @AddToCart
-Step: Click on @CartButton
-Verify: @BookInCart is Displayed
+Verify: @RobinBookTitle is Displayed
+Step: Pause 2 sec
 End

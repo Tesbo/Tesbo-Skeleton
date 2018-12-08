@@ -4,20 +4,45 @@
   "ExtCodeDirectory": "E:\\QAble\\TesboDemo\\src\\java\\ExtTestCode",
   "run": {
     "baseUrl": "https://www.amazon.in/",
-    "seleniumAddress": "",
     "by": {
-      "tag":
-      ["books"]
+      "tag": [
+        "All"
+      ]
     },
     "browser": {
-      "name":
-      ["chrome"]
-
-
+      "name": [
+        "chrome"
+      ]
     },
     "parallel": {
-      "status": true,
-      "count": "4"
-    }
+      "status": false,
+      "count": "2"
+    },
+
+    "binaries": {
+      "chrome": ""
+    },
+    "capabilities": {
+      "firefox": {
+        "name": "booking Work Flow",
+        "build": "1.0",
+        "browserName": "Firefox",
+        "version": "62",
+        "platform": "Windows 10",
+        "screenResolution": "1366x768",
+        "record_video": true
+      },
+      "chrome": {
+        "name": "booking Work Flow",
+        "build": "1.0",
+        "browserName": "chrome",
+        "version": "66",
+        "platform": "Windows 10",
+        "screenResolution": "1366x768",
+        "record_video": true
+      }
+    },
+    "SingleWindowRun": false,
+    "highlightElement": true
   }
 }

@@ -1,0 +1,19 @@
+
+
+
+Test: Amazon books search
+#BooksSearch #All
+Step: Enter 'books' in @SearchBox
+Step: Press Enter
+Step: Pause 1 sec
+Step: Click on @PrimeMember
+Step: Scroll to coordinate (100,100)
+Step: Pause 2 sec
+Step: Click on @HindiLanguage
+Step: Click on @RobinSharma
+Step: Click on @FourStarAndAbove
+Step: Click on @RobinBook
+Step: Switch to new window
+Verify: @RobinBookTitle is Displayed
+Step: Pause 2 sec
+End
