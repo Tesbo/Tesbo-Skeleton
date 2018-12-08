@@ -14,6 +14,7 @@
         "chrome"
       ]
     },
+
     "parallel": {
       "status": false,
       "count": "2"
