@@ -1,0 +1,37 @@
+
+
+
+
+Test: Amazon iphone search
+#MobileSearch
+Step: Enter 'mobile' in @SearchBox
+Step: Press Enter
+Step: Pause 1 sec
+Step: Click on @PrimeMember
+Verify: @MobilePage is Displayed
+Step: Pause 1 sec
+Step: Scroll to coordinate (100,100)
+Step: Click on @AndroidOS
+Step: Click on @DualSim
+Step: Click on @Above10MegaPixel
+Step: Pause 2 sec
+End
+
+
+Test: Amazon books search
+#books
+Step: Enter 'books' in @SearchBox
+Step: Press Enter
+Step: Pause 1 sec
+Step: Click on @PrimeMember
+Step: Scroll to coordinate (100,100)
+Step: Pause 2 sec
+Step: Click on @HindiLanguage
+Step: Click on @RobinSharma
+Step: Click on @FourStarAndAbove
+Step: Click on @RobinBook
+Step: Switch to new window
+Step: Click on @AddToCart
+Step: Click on @CartButton
+Verify: @BookInCart is Displayed
+End

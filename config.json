@@ -1,0 +1,23 @@
+{
+  "SuiteDirectory": "E:\\QAble\\TesboDemo\\src\\java\\Suite",
+  "locatorDirectory": "E:\\QAble\\TesboDemo\\src\\java\\Locator",
+  "ExtCodeDirectory": "E:\\QAble\\TesboDemo\\src\\java\\ExtTestCode",
+  "run": {
+    "baseUrl": "https://www.amazon.in/",
+    "seleniumAddress": "",
+    "by": {
+      "tag":
+      ["books"]
+    },
+    "browser": {
+      "name":
+      ["chrome"]
+
+
+    },
+    "parallel": {
+      "status": true,
+      "count": "4"
+    }
+  }
+}

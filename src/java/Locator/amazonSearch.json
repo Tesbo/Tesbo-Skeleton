@@ -1,0 +1,38 @@
+{
+
+  "SearchBox":"//input[@id='twotabsearchtextbox']",
+  "PrimeMember": "//span[@class='a-declarative']//img[@alt='Prime Eligible']",
+  "MobilePage" : "(//SPAN[@class='a-color-state a-text-bold'])[2]",
+  "AndroidOS" : "//SPAN[@class='a-size-small a-color-base s-ref-text-link s-ref-link-cursor'][text()='Android']",
+  "DualSim" : "//SPAN[@class='a-size-small a-color-base s-ref-text-link s-ref-link-cursor'][text()='Dual SIM']",
+  "Above10MegaPixel" : "//SPAN[@class='a-size-small a-color-base s-ref-text-link s-ref-link-cursor'][contains(text(),'10 MP ')]",
+  "HindiLanguage": "//SPAN[@class='a-size-small a-color-base s-ref-text-link s-ref-link-cursor'][text()='Hindi']",
+  "RobinSharma": "//SPAN[@class='a-size-small a-color-base s-ref-text-link s-ref-link-cursor'][text()='Robin Sharma']",
+  "FourStarAndAbove": "//SPAN[@class='a-icon-alt'][contains(text(),'4 Stars ')]",
+  "RobinBook" : "(//IMG[@src='https://images-eu.ssl-images-amazon.com/images/I/51iRbhdi4XL._AC_US218_.jpg'])[2]",
+  "AddToCart": "//INPUT[@id='add-to-cart-button']",
+  "CartButton": "//A[@id='hlb-view-cart-announce']",
+  "BookInCart" : "//ul/li[1]/span/a//span[contains(text(),'Sanyasi Jisne Apni Sampati Bech')]"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
