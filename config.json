@@ -23,26 +23,8 @@
     "binaries": {
       "chrome": ""
     },
-    "capabilities": {
-      "firefox": {
-        "name": "booking Work Flow",
-        "build": "1.0",
-        "browserName": "Firefox",
-        "version": "62",
-        "platform": "Windows 10",
-        "screenResolution": "1366x768",
-        "record_video": true
-      },
-      "chrome": {
-        "name": "booking Work Flow",
-        "build": "1.0",
-        "browserName": "chrome",
-        "version": "66",
-        "platform": "Windows 10",
-        "screenResolution": "1366x768",
-        "record_video": true
-      }
-    },
+
+
     "SingleWindowRun": false,
     "highlightElement": true
   }
