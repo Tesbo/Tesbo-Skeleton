@@ -17,3 +17,8 @@ Step: Switch to new window
 Verify: @RobinBookTitle is Displayed
 Step: Pause 2 sec
 End
+
+
+
+
+//Add One Test for External code parameter passing

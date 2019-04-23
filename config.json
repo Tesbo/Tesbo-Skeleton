@@ -1,7 +1,5 @@
 {
-  "SuiteDirectory": "E:\\QAble\\TesboDemo\\src\\java\\Suite",
-  "locatorDirectory": "E:\\QAble\\TesboDemo\\src\\java\\Locator",
-  "ExtCodeDirectory": "E:\\QAble\\TesboDemo\\src\\java\\ExtTestCode",
+  "projectDIR" : "/Volumes/Viral/QAble/Tesbo-Skeleton/",
   "run": {
     "baseUrl": "https://www.amazon.in/",
     "by": {
@@ -24,8 +22,6 @@
       "chrome": ""
     },
 
-
-    "SingleWindowRun": false,
-    "highlightElement": true
+    "highlightElement": true,
   }
 }
