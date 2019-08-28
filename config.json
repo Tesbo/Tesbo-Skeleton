@@ -1,7 +1,7 @@
 {
-  "projectDIR" : "/Volumes/Viral/QAble/Tesbo-Skeleton/",
+  "projectDIR" : "E:/Project/Tesbo/NewTB/Tesbo-Skeleton",
   "run": {
-    "baseUrl": "https://www.amazon.in/",
+    "baseUrl": "https://www.phptravels.net/admin",
     "by": {
       "tag": [
         "All"
@@ -21,7 +21,7 @@
     "binaries": {
       "chrome": ""
     },
-
-    "highlightElement": true,
+    "browserClose":false,
+    "highlightElement": true
   }
 }
