@@ -1,0 +1,18 @@
+Test: login on phptravels site with valid Credentials
+#All #Login
+Step: Pause until @Email_Box is display
+Step: pause 1 sec
+Step: Enter 'admin@phptravels.com' in to @Email_Box
+Step: Enter 'demoadmin' in @Password_Box
+Step: Click on @LoginBtn
+Step: Pause until @LogoutBtn is display
+Step: pause 1 sec
+Step: Scroll to coordinate (300,350)
+Step: pause 5 sec
+Step: scroll to top
+Step: Pause 2 sec
+Verify: @LogoutBtn is Displayed
+Verify: Page Title is equal to 'Dashboard'
+Step: Pause 2 sec
+End
+
