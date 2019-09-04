@@ -20,8 +20,8 @@
     <dependencies>
         <dependency>
             <groupId>Tesbo</groupId>
-            <artifactId>Tesbo-pro</artifactId>
-            <version>0.0.9</version>
+            <artifactId>Tesbo-Beta</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
