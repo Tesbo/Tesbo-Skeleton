@@ -12,7 +12,7 @@
     <repositories>
         <repository>
             <id>Tesbo</id>
-            <url>http://download.tesbo.io:8081/artifactory/libs-release-local//</url>
+            <url>http://download.tesbo.io/artifactory/libs-release-local/</url>
         </repository>
     </repositories>
 
