@@ -1,7 +1,6 @@
 package CustomStep;
 
 
-import ExtCode.Step;
 import Selenium.ExtendTesboDriver;
 import org.junit.Assert;
 import org.openqa.selenium.By;
