@@ -25,6 +25,8 @@ Step: Enter 'demoadmin' in @Password_Box
 Step: Click on @LoginBtn
 Step: Pause until @LogoutBtn is display
 Step: pause 1 sec
+Step: Scroll to Bottom
+Step: pause 1 sec
 Code: Click on account button
 Step: Pause 2 sec
 Code: Verify profile page title
