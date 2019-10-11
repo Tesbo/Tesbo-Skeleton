@@ -1,0 +1,21 @@
+Test: Verify window resize functionality
+#All #window
+Step: Window Resize (600,600)
+Step: Pause 2 sec
+End
+
+Test: Verify window maximize functionality
+#All #window
+Step: Window Resize (600,600)
+Step: Pause 2 sec
+Step: Window Maximize
+Step: Pause 2 sec
+End
+
+Test: Verify window Minimize functionality
+#All #window
+Step: Window Minimize
+Step: Pause 5 sec
+Step: Window Maximize
+Step: Pause 2 sec
+End
