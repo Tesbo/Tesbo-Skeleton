@@ -37,7 +37,16 @@ Step: pause 5 sec
 End
 
 Test: open url functionality
-#All #TBF1
+#All #TBF
 Step: Open URL 'http://google.com'
 Step: pause 5 sec
+End
+
+Test: Verify Mouse Hover functionality
+#All #TBF1
+Step: Open URL 'https://www.mathsisfun.com/numbers/number-chart.php'
+Step: Mouse Hover @BlackColor
+Step: pause 2 sec
+Step: Mouse Hover @FiveNumber
+Step: pause 2 sec
 End
