@@ -1,0 +1,5 @@
+{
+  "ForgotPasswordPageText": "//div[@class='text-center']",
+  "sendButton":"//*[@name='send']",
+  "UploadTextBox":"//*[@id='uploadfile_0']"
+}

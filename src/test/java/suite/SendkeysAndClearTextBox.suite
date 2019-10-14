@@ -1,0 +1,25 @@
+Test: Enter text functionality
+#All #sendKey
+Step: Enter 'admin@phptravels.com' in @Email_Box
+Step: Enter 'demoadmin' in @Password_Box
+Step: pause 2 sec
+End
+
+Test: Clear and enter text functionality
+#All #sendKey
+Step: Enter 'admin@phptravels.com' in @Email_Box
+Step: pause 1 sec
+Step: Clear and enter 'Hello@test.com' in @Email_Box
+Step: pause 3 sec
+End
+
+Test: Clear text from text box functionality
+#All #sendKey
+Step: Enter 'admin@phptravels.com' in @Email_Box
+Step: pause 1 sec
+Step: Clear @Email_Box textbox
+Step: pause 3 sec
+End
+
+
+https://material-ui.com/components/progress/
