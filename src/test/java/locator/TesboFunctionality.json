@@ -1,0 +1,7 @@
+{
+  "ForgotPasswordPageText": "//div[@class='text-center']",
+  "sendButton":"//*[@name='send']",
+  "UploadTextBox":"//*[@id='uploadfile_0']",
+  "BlackColor": "(//div[@id='clrs']/button)[5]",
+  "FiveNumber": "(//div[@id='grid']/div/div)[5]"
+}
