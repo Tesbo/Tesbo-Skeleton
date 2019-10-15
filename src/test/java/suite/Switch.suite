@@ -46,7 +46,7 @@ Step: Switch to alert then enter 'Testing Demo'
 Step: pause 2 sec
 End
 
-Test: Verify switch to iframes using id
+Test: Verify switch to iframe using id
 #All #switch
 Step: Open Url 'http://demo.automationtesting.in/Frames.html'
 Step: Switch to frame using id 'singleframe'

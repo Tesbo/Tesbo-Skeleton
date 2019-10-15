@@ -1,5 +1,4 @@
 {
-  "projectDIR" : "/Volumes/Viral/ViralTEsbo/Tesbo-Skeleton",
   "run": {
     "baseUrl": "https://www.phptravels.net/admin",
     "by": {
@@ -21,7 +20,7 @@
     "binaries": {
       "chrome": ""
     },
-    "browserClose":false,
+
     "highlightElement": true
   }
 }
