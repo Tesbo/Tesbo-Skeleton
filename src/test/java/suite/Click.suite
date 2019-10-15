@@ -1,5 +1,5 @@
 Test: Verify click functionality
-#All #click
+#All #click1
 Step: Click on @ForgotPassword
 Step: pause 2 sec
 Step: Click on @BackButton
