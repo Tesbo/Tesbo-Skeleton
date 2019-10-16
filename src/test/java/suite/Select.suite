@@ -1,0 +1,71 @@
+Test: Verify select using text from dropdown functionality
+#All #select
+Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+Step: Scroll to coordinate (50,350)
+Step: pause 2 sec
+Step: Select using text 'Monday' from @DaysDropdown
+Step: pause 2 sec
+End
+
+Test: Verify select using index from dropdown functionality
+#All #select
+Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+Step: Scroll to coordinate (50,350)
+Step: pause 2 sec
+Step: Select using index 3 from @DaysDropdown
+Step: pause 2 sec
+End
+
+Test: Verify select using attribute value from dropdown functionality
+#All #select
+Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+Step: Scroll to coordinate (50,350)
+Step: pause 2 sec
+Step: Select using value 'Wednesday' from @DaysDropdown
+Step: pause 2 sec
+End
+
+Test: Verify deselect using text from multi select dropdown functionality
+#All #deselect
+Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+Step: Scroll to coordinate (50,350)
+Step: pause 2 sec
+Step: Select using text 'New York' from @MultiSelectDropdown
+Step: pause 2 sec
+Step: Deselect using text 'New York' from @MultiSelectDropdown
+Step: pause 2 sec
+End
+
+Test: Verify deselect all from multi select dropdown functionality
+#All #deselect
+Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+Step: Scroll to coordinate (50,350)
+Step: pause 2 sec
+Step: Select using text 'New York' from @MultiSelectDropdown
+Step: Select using text 'Texas' from @MultiSelectDropdown
+Step: pause 2 sec
+Step: Deselect all from @MultiSelectDropdown
+Step: pause 2 sec
+End
+
+Test: Verify deselect using index from multi select dropdown functionality
+#All #deselect
+Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+Step: Scroll to coordinate (50,350)
+Step: pause 2 sec
+Step: Select using text 'Texas' from @MultiSelectDropdown
+Step: pause 2 sec
+Step: Deselect using index 5 from @MultiSelectDropdown
+Step: pause 2 sec
+End
+
+Test: Verify deselect using value from multi select dropdown functionality
+#All #deselect1
+Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
+Step: Scroll to coordinate (50,350)
+Step: pause 2 sec
+Step: Select using text 'New Jersey' from @MultiSelectDropdown
+Step: pause 2 sec
+Step: Deselect using value 'New Jersey' from @MultiSelectDropdown
+Step: pause 2 sec
+End

@@ -19,3 +19,13 @@ Step: Pause 5 sec
 Step: Window Maximize
 Step: Pause 2 sec
 End
+
+Test: Verify close window functionality
+#All #window1
+Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
+Step: Scroll and Click on @NewWindow
+Step: Switch to new window
+Step: pause 2 sec
+Step: close window
+Step: pause 2 sec
+End
