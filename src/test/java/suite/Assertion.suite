@@ -15,7 +15,7 @@ End
 Test: Verify assertion for text is equal to element text
 #All #assertion
 Step: Open URL 'https://www.mathsisfun.com/numbers/counting.html'
-Verify: @Heading text is equal ti 'Count to 10'
+Verify: @Heading text is equal to 'Count to 10'
 Step: pause 2 sec
 End
 
@@ -57,7 +57,7 @@ End
 Test: Verify assertion for element text should be number
 #All #assertion
 Step: Open URL 'https://www.mathsisfun.com/numbers/counting.html'
-Verify: @FirstNumbers text should be number
+Verify: @FirstNumber text should be number
 Step: pause 2 sec
 End
 
@@ -118,8 +118,29 @@ Step: pause 5 sec
 End
 
 Test: Verify assertion for current url contains is same as given url contains
-#All #assertion1
+#All #assertion
 Step: Open URL 'https://www.mathsisfun.com/data/index.html'
 Verify: current url is contains '/index.html'
 Step: pause 5 sec
+End
+
+Test: Verify assertion with and condition
+#All #assertion
+Step: Open URL 'https://www.mathsisfun.com/numbers/counting.html'
+Verify: @Heading text is not equal to 'Count 100' And @Heading text is equal to 'Count to 10'
+Step: pause 2 sec
+End
+
+Test: Verify assertion with or condition
+#All #assertion
+Step: Open URL 'https://www.mathsisfun.com/numbers/counting.html'
+Verify: @Heading text is not equal to 'Count 100' or @Heading text is equal to 'test OR'
+Step: pause 2 sec
+End
+
+Test: Verify assertion with multiple element
+#All #assertion1
+Step: Open URL 'https://www.mathsisfun.com/numbers/counting.html'
+Verify: @Heading @FirstNumber @SecondNumber is displayed
+Step: pause 2 sec
 End
