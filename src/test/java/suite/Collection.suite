@@ -1,0 +1,23 @@
+
+Collection Name: login in phptravels
+Step: Pause until @Email_Box is display
+Step: pause 1 sec
+Step: Enter 'admin@phptravels.com' in to @Email_Box
+Step: Enter 'demoadmin' in @Password_Box
+Step: Click on @LoginBtn
+End
+
+
+Test: verify custom step functionality
+#All #collection
+Collection: login in phptravels
+Step: Pause until @LogoutBtn is display
+Step: pause 1 sec
+Step: Scroll to Bottom
+Step: pause 1 sec
+Code: Click on account button
+Step: Pause 2 sec
+Code: Verify profile page title
+Verify: @LogoutBtn is Displayed
+Step: Pause 2 sec
+End

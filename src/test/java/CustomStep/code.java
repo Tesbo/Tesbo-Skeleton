@@ -25,4 +25,9 @@ public class code extends ExtendTesboDriver{
         driver.findElement(By.xpath("(//a[contains(text(),'Account')])[2]")).click();
     }
 
+    @Step("Enter credential")
+    public void EnterCredential(String email, String password) {
+        driver.findElement(By.xpath("//INPUT[@type='text']")).sendKeys(email);
+        driver.findElement(By.xpath("//INPUT[@type='password']")).sendKeys(password);
+    }
 }
