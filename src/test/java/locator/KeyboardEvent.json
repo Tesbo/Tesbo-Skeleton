@@ -1,3 +1,0 @@
-{
-  "ForgotPassword":"//strong[contains(text(),'Forget')]/.."
-}
