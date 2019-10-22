@@ -1,5 +1,0 @@
-{
-  "UserName": "//div[@id='wrap-username']/input",
-  "ChatAsGuest": "//button[contains(text(),'Chat as guest')]",
-  "Captcha": "//span[@id='recaptcha-anchor']"
-}
