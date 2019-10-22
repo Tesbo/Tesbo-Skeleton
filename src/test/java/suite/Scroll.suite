@@ -1,0 +1,41 @@
+Test: Verify scroll to bottom functionality
+#All #scroll
+Step: Open URL 'https://www.toolsqa.com/'
+Step: pause 2 sec
+Step: Scroll to Bottom
+Step: pause 2 sec
+End
+
+Test: Verify scroll to top functionality
+#All #scroll
+Step: Open URL 'https://www.toolsqa.com/'
+Step: Scroll to Bottom
+Step: pause 2 sec
+Step: Scroll to Top
+Step: pause 2 sec
+End
+
+Test: Verify scroll to coordinate functionality
+#All #scroll
+Step: Open URL 'https://www.toolsqa.com/'
+Step: Scroll to coordinate (50,500)
+Step: pause 2 sec
+End
+
+
+Test: Verify scroll to horizontal functionality
+#All #scroll
+Step: Open URL 'http://google.com'
+Step: Window Resize (600,600)
+Step: pause 2 sec
+Step: Scroll to Horizontal
+Step: pause 2 sec
+End
+
+Test: Verify scroll to element functionality
+#All #scroll
+Step: Open URL 'https://www.toolsqa.com/'
+Step: pause 2 sec
+Step: Scroll to @AutomationTools
+Step: pause 2 sec
+End

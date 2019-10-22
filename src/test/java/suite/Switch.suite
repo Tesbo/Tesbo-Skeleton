@@ -1,0 +1,126 @@
+
+Test: Verify switch to alert then accept functionality
+#All #switch
+Step: Open URL 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'
+Step: Click on @ClickMe
+Step: pause 2 sec
+Step: Switch to alert then accept
+Step: pause 2 sec
+End
+
+Test: Verify switch to alert then cancel functionality
+#All #switch
+Step: Open URL 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'
+Step: Scroll and Click on @ClickMeButton
+Step: pause 2 sec
+Step: Switch to alert then cancel
+Step: pause until @ConfirmationMessage is display
+Verify: @ConfirmationMessage text is equal to 'You pressed Cancel!'
+Step: pause 2 sec
+End
+
+Test: Verify switch to alert then close functionality
+#All #switch
+Step: Open URL 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'
+Step: Scroll and Click on @ClickMeButton
+Step: pause 2 sec
+Step: Switch to alert then close
+Step: pause until @ConfirmationMessage is display
+Verify: @ConfirmationMessage text is equal to 'You pressed Cancel!'
+Step: pause 2 sec
+End
+
+Test: Verify switch to alert then verify text on alert
+#All #switch
+Step: Open URL 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'
+Step: Click on @ClickMe
+Step: Switch to alert then verify text with 'I am an alert box!'
+Step: pause 2 sec
+End
+
+Test: Verify switch to alert then enter text on alert
+#All #switch
+Step: Open URL 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'
+Step: Scroll and Click on @ClickForPromptBox
+Step: Switch to alert then enter 'Testing Demo'
+Step: pause 2 sec
+End
+
+Test: Verify switch to iframe using id
+#All #switch
+Step: Open Url 'http://demo.automationtesting.in/Frames.html'
+Step: Switch to frame using id 'singleframe'
+Step: enter 'Testing demo' on @iframeTextBox
+Step: pause 2 sec
+End
+
+Test: Verify switch to iframes using name
+#All #switch
+Step: Open Url 'http://demo.automationtesting.in/Frames.html'
+Step: Switch to frame using name 'singleframe'
+Step: enter 'Testing demo' on @iframeTextBox
+Step: pause 2 sec
+End
+
+Test: Verify switch to iframes using element
+#All #switch
+Step: Open Url 'http://demo.automationtesting.in/Frames.html'
+Step: Switch to frame @SingleIframe
+Step: enter 'Testing demo' on @iframeTextBox
+Step: pause 2 sec
+End
+
+Test: Verify switch to parent frame
+#All #switch
+Step: Open Url 'http://demo.automationtesting.in/Frames.html'
+Step: Switch to frame using name 'singleframe'
+Step: enter 'Testing demo' on @iframeTextBox
+Step: pause 1 sec
+Step: Switch to parent frame
+Step: Click on @IframeWithInAnIframeButton
+Step: pause 2 sec
+End
+
+Test: Verify switch to main frame
+#All #switch
+Step: Open Url 'http://demo.automationtesting.in/Frames.html'
+Step: Switch to frame using name 'singleframe'
+Step: enter 'Testing demo' on @iframeTextBox
+Step: pause 1 sec
+Step: Switch to main frame
+Step: Click on @IframeWithInAnIframeButton
+Step: pause 2 sec
+End
+
+Test: Verify switch to new window
+#All #switch
+Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
+Step: Scroll and Click on @NewWindow
+Step: Switch to new window
+Verify: @TOOLSQAIcon is displayed
+Step: pause 2 sec
+End
+
+Test: Verify switch to main window
+#All #switch
+Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
+Step: Scroll and Click on @NewWindow
+Step: Switch to new window
+Verify: @TOOLSQAIcon is displayed
+Step: pause 2 sec
+Step: Switch to main window
+Step: Click on @NewWindow
+Step: pause 4 sec
+End
+
+Test: Verify switch to parent window
+#All #switch
+Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
+Step: Scroll and Click on @NewWindow
+Step: Switch to new window
+Verify: @TOOLSQAIcon is displayed
+Step: pause 2 sec
+Step: Switch to parent window
+Step: Click on @NewWindow
+Step: pause 4 sec
+End

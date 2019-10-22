@@ -1,0 +1,11 @@
+{
+  "ClickMe": "(//button[contains(text(),'Click me!')])[1]",
+  "ClickMeButton": "(//button[contains(text(),'Click me!')])[2]",
+  "ClickForPromptBox": "//button[contains(text(),'Click for Prompt Box')]",
+  "ConfirmationMessage": "//p[@id='confirm-demo']",
+  "iframeTextBox": "//input",
+  "SingleIframe": "//div[@id='Single']/iframe",
+  "IframeWithInAnIframeButton": "//a[contains(text(),'Iframe with in an Iframe')]",
+  "TOOLSQAIcon": "(//img[@alt='TOOLSQA'])[1]",
+  "NewWindow": "//button[contains(text(),'New Browser Tab')]"
+}
