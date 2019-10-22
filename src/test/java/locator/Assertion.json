@@ -1,8 +1,0 @@
-{
-  "Numbers": "//tr[@class='large']/td",
-  "Heading": "//h2[contains(text(),'Count to 10')]",
-  "DataPageHeading": "(//h1)[1]",
-  "FirstNumber": "(//tr[@class='large']/td)[1]",
-  "SecondNumber": "(//tr[@class='large']/td)[2]",
-  "SecondDataPageHeading": "(//h1)[2]"
-}
