@@ -1,6 +1,0 @@
-{
-  "SaveIcon":"//button[@class='MuiButtonBase-root MuiFab-root MuiFab-primary']",
-  "RightIcon": "//button[@class='MuiButtonBase-root MuiFab-root jss272 MuiFab-primary']",
-  "AcceptTermsButton": "//button[@class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary']",
-  "ClickMeButton": "//button[@id='myBtn']"
-}
