@@ -8,7 +8,7 @@ Step: Click on @LoginBtn
 Step: Pause until @LogoutBtn is display
 Step: pause 1 sec
 Step: Scroll to coordinate (300,350)
-Step: pause 5 sec
+Step: pause 6 sec
 Step: scroll to top
 Step: Pause 2 sec
 Verify: @LogoutBtn is Displayed
