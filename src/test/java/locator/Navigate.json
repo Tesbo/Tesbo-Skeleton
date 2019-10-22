@@ -1,4 +1,0 @@
-{
-  "ExploreDemo": "//span[contains(text(),'Explore')]",
-  "DemoCredential": "//strong[contains(text(),'Demo Credentials')]"
-}
