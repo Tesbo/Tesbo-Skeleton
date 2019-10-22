@@ -1,9 +1,0 @@
-{
-  "FirstName":"/html//input[@id='firstName']",
-  "LastName":"/html//input[@id='lastName']",
-  "UserName":"/html//input[@id='username']",
-  "Password":"//input[@name='Passwd']",
-  "emailTextBox": "//input[@id='username']",
-  "passwordTextBox": "//input[@id='password']",
-  "signInTextBox": "//button[@type='submit']"
-}
