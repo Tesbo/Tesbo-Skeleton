@@ -33,7 +33,7 @@ Step: pause 2 sec
 End
 
 Test: Verify scroll to element functionality
-#All #scroll1
+#All #scroll
 Step: Open URL 'https://www.toolsqa.com/'
 Step: pause 2 sec
 Step: Scroll to @AutomationTools

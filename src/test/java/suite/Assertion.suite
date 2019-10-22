@@ -113,7 +113,7 @@ End
 Test: Verify assertion for current url is equal to given url
 #All #assertion
 Step: Open URL 'https://www.amazon.in/'
-Verify: current url is equal to 'https://www.amazon.in/'
+Verify: Current url is equal to 'https://www.amazon.in/'
 Step: pause 5 sec
 End
 

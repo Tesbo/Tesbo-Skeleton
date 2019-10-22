@@ -26,7 +26,7 @@ Verify: @DemoCredential page title is displayed
 Step: pause 2 sec
 End
 
-Test: Verify pause for specific second functionality
+Test: Verify pause for specific seconds functionality
 #All #pause1
 Step: Open URL 'https://phptravels.com'
 Step: Click on @ExploreDemo button
