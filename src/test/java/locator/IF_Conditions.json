@@ -1,9 +1,0 @@
-{
-  "alphanumericText":"(//span[contains(text(),'10 times')])[2]",
-  "NewTest":"//div[@class='example']/p[4]",
-  "PageHeading":"(//h1)[4]",
-  "NewPageHeading":"(//h1)[1]",
-  "NumTitle":"(//h2)[1]",
-  "SecondNum":"(//h2)[2]",
-  "ThreadNumber":"(//div[@class='beach']//td)[3]"
-}
