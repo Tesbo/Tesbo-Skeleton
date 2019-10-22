@@ -1,4 +1,0 @@
-{
-  "DaysDropdown": "//select[@id='select-demo']",
-  "MultiSelectDropdown": "//select[@id='multi-select']"
-}
