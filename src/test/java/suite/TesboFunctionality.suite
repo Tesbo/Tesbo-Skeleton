@@ -1,0 +1,52 @@
+Test: Print functionality
+#All #TBF
+Step: Click on @ForgotPassword
+Step: Print "Open Forgot Password page"
+End
+
+Test: Print element text functionality
+#All #TBF
+Step: Click on @ForgotPassword
+Step: Print @ForgotPasswordPageText
+End
+
+Test: Capture screenshot functionality
+#All #TBF
+Step: Click on @ForgotPassword
+Step: capture screenshot
+End
+
+Test: Capture element screenshot functionality
+#All #TBF
+Step: Click on @ForgotPassword
+Step: capture screenshot of @ForgotPasswordPageText
+End
+
+Test: File upload functionality
+#All #TBF
+Step: Open URL 'http://demo.guru99.com/test/upload/'
+Step: Upload File 'E:\Project\Tesbo\NewTB\Tesbo-Skeleton\Tesbo-Skeleton\src\test\Resources\GmailData.xlsx' @UploadTextBox
+Step: Click on @sendButton
+Step: pause 5 sec
+End
+
+Test: Get page source functionality
+#All #TBF
+Step: Get page source
+Step: pause 5 sec
+End
+
+Test: open url functionality
+#All #TBF
+Step: Open URL 'http://google.com'
+Step: pause 5 sec
+End
+
+Test: Verify Mouse Hover functionality
+#All #TBF
+Step: Open URL 'https://www.mathsisfun.com/numbers/number-chart.php'
+Step: Mouse Hover @BlackColor
+Step: pause 2 sec
+Step: Mouse Hover @FiveNumber
+Step: pause 2 sec
+End
