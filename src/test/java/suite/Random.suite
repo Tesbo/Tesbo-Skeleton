@@ -1,0 +1,65 @@
+Test: verify random functionality
+#All #random
+Step: Open URL 'https://www.google.in/'
+Step: pause 2 sec
+Step: Enter 'random.firstname' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.email' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.username' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.mobilenumber' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.lastname' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.age' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.birthday' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.debitcard' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.expirydate' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.cvv' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.Country' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.postcode' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.street' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.city' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.emoji' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.lorem' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.maritalStatus' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.gender' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.fullAddress' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.domain' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.gstno' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.panno' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.companyName' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.fullname' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.password' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.idno' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.passport' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.houseno' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.bankacno' on @GoogleSearch
+Step: Clear @GoogleSearch
+Step: Enter 'random.cardtype' on @GoogleSearch
+Step: pause 5 sec
+End
