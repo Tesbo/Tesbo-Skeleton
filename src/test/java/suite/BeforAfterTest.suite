@@ -1,6 +1,5 @@
 
 BeforeTest:
-Test: login on phptravels site
 Step: Pause until @Email_Box is display
 Step: pause 1 sec
 Step: Enter 'admin@phptravels.com' in to @Email_Box
@@ -9,7 +8,6 @@ Step: Click on @LoginBtn
 End
 
 AfterTest:
-Test: logout on phptravels site
 Step: Click on @LogoutBtn
 Step: Pause until @LoginBtn is display
 Verify: @LoginBtn is Displayed
