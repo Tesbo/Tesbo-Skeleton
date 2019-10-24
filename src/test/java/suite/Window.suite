@@ -21,11 +21,50 @@ Step: Pause 2 sec
 End
 
 Test: Verify close window functionality
-#All #window1
+#All #window
 Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
 Step: Scroll and Click on @NewWindow
 Step: Switch to new window
 Step: pause 2 sec
 Step: close window
+Step: pause 2 sec
+End
+
+Test: Verify close particular browser window using index
+#All #window
+Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
+Step: Scroll and Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: pause 2 sec
+Step: Close <2> window
+Step: pause 2 sec
+End
+
+Test: Verify close multiple browser window using index
+#All #window
+Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
+Step: Scroll and Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: pause 2 sec
+Step: Close <0,2> window
+Step: pause 2 sec
+End
+
+Test: Verify close particular range of browser window using index
+#All #window
+Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
+Step: Scroll and Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: Click on @NewWindow
+Step: pause 2 sec
+Step: Close <1 to 3> window
 Step: pause 2 sec
 End
