@@ -8,7 +8,7 @@ Step: pause 2 sec
 End
 
 Test: Verify select using index from dropdown functionality
-#All #select
+#All #select #navigate
 Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
 Step: Scroll to coordinate (50,350)
 Step: pause 2 sec
@@ -49,7 +49,7 @@ Step: pause 2 sec
 End
 
 Test: Verify deselect using index from multi select dropdown functionality
-#All #deselect
+#All #deselect #navigate
 Step: Open URL 'https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html'
 Step: Scroll to coordinate (50,350)
 Step: pause 2 sec

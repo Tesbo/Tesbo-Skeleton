@@ -1,0 +1,21 @@
+Test: Verify forward button functionality of browser navigate
+
+//Test: Verify refresh button functionality of browser navigate
+
+//Test: Verify press Tab Key from keyboard functionality
+
+//Test: Verify if else condition
+
+//Test: verify Data Set functionality
+
+//Test: verify Data Set functionality with excel file
+
+//Test: verify custom step functionality with passing data set value in parameter
+
+Test: Verify after and before test functionality
+
+Test: Verify assertion for element text should be number
+
+Test: Verify assertion for element is displayed
+
+Test: Verify assertion for element is present

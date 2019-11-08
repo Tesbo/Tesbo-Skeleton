@@ -1,0 +1,9 @@
+Test: login on phptravels and verify user profile page using custom code
+
+Test: login on phptravels site with valid Credentials
+
+Test: Verify scroll to top functionality
+
+Test: Verify scroll to horizontal functionality
+
+Test: Verify scroll to element functionality
