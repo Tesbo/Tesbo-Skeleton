@@ -1,31 +1,31 @@
 Test: Verify window resize functionality
 
-Test: Verify window Minimize functionality
+//Test: Verify window Minimize functionality
 
-Test: Verify close particular browser window using index
+//Test: Verify close particular browser window using index
 
 Test: Print functionality
 
 Test: Capture element screenshot functionality
 
-Test: Verify Mouse Hover functionality
+//Test: Verify Mouse Hover functionality
 
-Test: Verify switch to alert then accept functionality
+//Test: Verify switch to alert then accept functionality
 
-Test: Verify switch to iframe using id
+//Test: Verify switch to iframe using id
 
-Test: Verify switch to new window
+//Test: Verify switch to new window
 
 Test: Enter text functionality
 
 Test: Clear and enter text functionality
 
-Test: Verify select using text from dropdown functionality
+//Test: Verify select using text from dropdown functionality
 
 Test: Verify select using attribute value from dropdown functionality
 
-Test: Verify deselect using value from multi select dropdown functionality
-Test: Verify scroll to horizontal functionality
+//Test: Verify deselect using value from multi select dropdown functionality
+//Test: Verify scroll to horizontal functionality
 
 Test: Verify scroll to top functionality
 
