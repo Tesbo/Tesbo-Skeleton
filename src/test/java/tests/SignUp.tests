@@ -1,0 +1,14 @@
+Test: Verify signUp page validation on Gmail page
+#All #GmailSignUp
+Step: open url 'https://accounts.google.com/signup'
+Step: Pause until @Next is display
+Step: Click on @Next
+Step: Pause 2 sec
+Verify: @FirstNameError text is equal 'Enter first name'
+Verify: @LastNameError text is equal to ignore case 'enter last NAME'
+Verify: @UserNameError text contains is 'Gmail address'
+Verify: @PasswordError text contains ignore case 'PASSWORD'
+Verify: @PasswordError text is start with 'Enter'
+Verify: @PasswordError text is end with 'password'
+Step: Pause 2 sec
+End

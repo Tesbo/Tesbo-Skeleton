@@ -1,0 +1,21 @@
+Test: verify custom step functionality
+
+Test: Verify assertion for element size functionality
+
+Test: Verify assertion for text is equal to ignore case of element text
+
+Test: verify custom step functionality with parameter
+
+Test: Verify if condition
+
+Test: Verify press Enter Key from keyboard on element functionality
+
+Test: Verify press Ctrl + A, Ctrl + C and Ctrl + V from keyboard functionality
+
+Test: Verify pause until element is disappear functionality
+
+Test: Verify select using text from dropdown functionality
+
+Test: Enter text functionality
+
+Test: Verify switch to alert then accept functionality

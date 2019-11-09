@@ -2,8 +2,8 @@
   "run": {
     "baseUrl": "https://www.phptravels.net/admin",
     "by": {
-      "tag": [
-        "All"
+      "suite": [
+        "smoke","Regression"
       ]
     },
     "browser": {
@@ -13,14 +13,22 @@
     },
 
     "parallel": {
-      "status": false,
-      "count": "2"
+      "status": true,
+      "count": "3"
     },
-
+    "retryAnalyser":{
+      "count":"2"
+    },
     "binaries": {
       "chrome": ""
     },
 
     "highlightElement": true
+  },
+  "cloudIntegration" : {
+    "report": true,
+    "apiKey": "d31129abe90e5e2086e56a26995cc1cc",
+    "projectKey" : "5cb6f522e7beb15573cd34a3",
+    "buildName":"QAbleTest002"
   }
 }

@@ -1,5 +1,5 @@
 Test: Verify click functionality
-#All #click1
+#All #click
 Step: Click on @ForgotPassword
 Step: pause 2 sec
 Step: Click on @BackButton
@@ -62,7 +62,7 @@ Step: pause 5 sec
 End
 
 Test: Verify click on particular element text from List functionality
-#All #click12
+#All #click
 Step: Open URL 'https://www.mathsisfun.com/numbers/number-chart.php'
 Step: click on "Red" from List @ColorList
 Step: pause 5 sec

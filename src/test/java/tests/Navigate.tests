@@ -9,7 +9,7 @@ Step: pause 2 sec
 End
 
 Test: Verify forward button functionality of browser navigate
-#All #navigate
+#All #navigate #pause
 Step: Open URL 'https://phptravels.com'
 Step: Click on @ExploreDemo button
 Step: pause 2 sec
