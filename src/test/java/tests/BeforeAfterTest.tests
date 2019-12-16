@@ -1,0 +1,29 @@
+
+BeforeTest:
+Step: Open URL 'https://www.arrowchat.com/demo.admin/arrowchat/admin/'
+Step: Pause until @userName is display
+Step: pause 1 sec
+Step: Clear and enter 'demo' in to @userName
+Step: Clear and enter 'demo' in @Password
+Step: Click on @LoginBtn
+End
+
+AfterTest:
+Step: Click on @LogOutBtn
+Step: Pause until @LoginBtn is display
+Verify: @LoginBtn is Displayed
+End
+
+Test: Verify after and before test functionality
+#All #BeforeAfter
+Step: Pause until @LogOutBtn is display
+Step: pause 1 sec
+Step: Scroll to Bottom
+Step: pause 1 sec
+Step: Scroll to Top
+Step: pause 2 sec
+Code: Click on embed codes button
+Step: Pause 1 sec
+Verify: @LogOutBtn is Displayed
+Step: Pause 2 sec
+End

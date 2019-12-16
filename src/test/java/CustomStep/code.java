@@ -20,9 +20,9 @@ public class code extends ExtendTesboDriver{
         reporter.printStep("Profile page title is displayed!!!");
     }
 
-    @Step("Click on account button")
+    @Step("Click on embed codes button")
     public void ClickOnAccountButton() {
-        driver.findElement(By.xpath("(//a[contains(text(),'Account')])[2]")).click();
+        driver.findElement(By.xpath("(//a[contains(text(),'Embed Codes')])[2]")).click();
     }
 
     @Step("Enter credential")

@@ -1,0 +1,7 @@
+{
+  "userName": "//input[@id='username']",
+  "Password": "//input[@name='password']",
+  "LogOutBtn": "//a[contains(text(), 'Log Out')]"
+
+
+}
