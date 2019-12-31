@@ -1,9 +1,13 @@
 {
   "alphanumericText":"(//span[contains(text(),'10 times')])[2]",
+  "alphanumericText1":"(//span[contains(text(),'10 times')])[2]/a",
   "NewTest":"//div[@class='example']/p[4]",
   "PageHeading":"(//h1)[4]",
   "NewPageHeading":"(//h1)[1]",
   "NumTitle":"(//h2)[1]",
   "SecondNum":"(//h2)[2]",
-  "ThreadNumber":"(//div[@class='beach']//td)[3]"
+  "ThreadNumber":"(//div[@class='beach']//td)[3]",
+  "userName": "//input[@id='username']",
+  "Password": "//input[@name='password']",
+  "LogOutBtn": "//a[contains(text(), 'Log Out')]"
 }

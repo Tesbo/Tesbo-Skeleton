@@ -21,9 +21,9 @@ Step: Pause 2 sec
 End
 
 Test: Verify close window functionality
-#All #window1
+#All #window
 Step: Open Url 'http://toolsqa.com/automation-practice-switch-windows/'
-Step: Scroll and Click on @NewWindow1
+Step: Scroll and Click on @NewWindow
 Step: Switch to new window
 Step: pause 2 sec
 Step: close window

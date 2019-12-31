@@ -3,6 +3,9 @@
   "Email_Box":"//INPUT[@type='text']",
   "Password_Box":"//INPUT[@type='password']",
   "LoginBtn":"//span[contains(text(),'Login')]",
-  "LogoutBtn":"//strong[contains(text(), 'Logout')]"
+  "LogoutBtn":"//strong[contains(text(), 'Logout')]",
+  "textBoxes": "//input[@type='text']",
+  "listOfNumbers": "//td[@width='60']",
+  "AlgebraTab": "(//a[contains(text(),'Algebra')])[1]"
 
 }

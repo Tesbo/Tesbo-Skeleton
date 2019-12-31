@@ -6,6 +6,5 @@
   "dblClickText":"//textarea",
   "textLink":"(//strong)[1]",
   "NumberList":"//div[@style='font: 17px Arial;']/div",
-  "ColorList":"//div[@id='tools']/div/button",
-  "LoginBtn":"//span[contains(text(),'Login')]"
+  "ColorList":"//div[@id='tools']/div/button"
 }

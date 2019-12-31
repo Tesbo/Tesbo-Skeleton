@@ -1,0 +1,37 @@
+{
+  "Credentials": {
+  "travelUser": "admin@phptravels.com",
+  "travelPass": "demoadmin",
+  "user": "demo",
+  "password": "demo"
+  },
+  "LoginData":[
+    {
+      "travelUser": "admin@phptravels.com",
+      "travelPass": "demoadmin"
+    },
+    {
+      "travelUser": "aenky@phptravels.com",
+      "travelPass": "aki123"
+    },
+    {
+      "travelUser": "viral@phptravels.com",
+      "travelPass": "vir23"
+    },
+    {
+      "travelUser": "test@phptravels.com",
+      "travelPass": "test123"
+    }
+  ],
+  "LoginListCredential":
+  {
+    "travelUser": ["test@phptravels.com","test@phptravels.com","aenky@phptravels.com","viral@phptravels.com","tesbo@gmail.com"],
+    "travelPass": ["demoadmin","test123","aki123","vir123","tesbo123"]
+  },
+"GmailUsers": {
+"excelFile": "E:\\Project\\Tesbo\\NewTB\\Tesbo-Skeleton\\Tesbo-Skeleton\\src\\test\\Resource\\GmailData.xlsx"
+},
+"LinkedinUsers[1]": {
+"excelFile": "E:\\Project\\Tesbo\\NewTB\\Tesbo-Skeleton\\Tesbo-Skeleton\\src\\test\\Resource\\GmailData.xlsx"
+}
+}

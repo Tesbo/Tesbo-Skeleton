@@ -1,0 +1,9 @@
+Test: Scroll to Horizontal
+#ScrollDemo
+Step: Open URL 'http://google.com/'
+Step: Window Maximize
+Step: pause 1 sec
+Step: Window Resize (600,600)
+Step: Scroll to Horizontal
+Step: pause 5 sec
+End

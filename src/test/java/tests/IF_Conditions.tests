@@ -1,16 +1,186 @@
-Test: Verify if condition
-#All #if
+
+Collection Name: logout in arrowchat
+Step: Click on @LogOutBtn
+Step: Pause until @LoginBtn is display
+Verify: @LoginBtn is Displayed
+End
+
+Test: Verify after and before test functionality
+#All #collection
+Collection: login in arrowchat
+Step: Pause until @LogOutBtn is display
+Step: pause 1 sec
+Step: Scroll to Bottom
+Step: pause 1 sec
+Step: Scroll to Top
+Step: pause 2 sec
+Code: Click on embed codes button
+Step: Pause 1 sec
+Verify: @LogOutBtn is Displayed
+Step: Pause 2 sec
+Collection: logout in arrowchat
+End
+
+
+Test: To verify End keyword in Test Name End
+#All #if1
 Step: Open URL 'https://www.mathsisfun.com/decimals.html'
 Step: pause 2 sec
-If:: @NewPageHeading is displayed
+If:: @alphanumericText1 is displayed
 Verify: @NewTest text is equal 'The decimal point goes between Ones and Tenths.'
+Code: google
 Step: pause 2 sec
 Else::
-Verify: @alphanumericText is present
+If:: : @NewTest text is equal 'The decimal point goes between Ones and'
+Verify: @NewTest is displayed
 Step: pause 2 sec
+Else If:: @alphanumericText123 is present Or @alphanumericText is present
+Step: print @alphanumericText
+Else::
+Verify: @alphanumericText is present
 End::
 Verify: @NewTest text contains is 'The decimal point'
 End
+
+======================================================================================================
+If condition
+======================================================================================================
+
+Test: Verify multiple if condition
+#All #ifTest1
+Step: Open URL 'https://www.mathsisfun.com/decimals.html'
+Step: pause 2 sec
+If:: @NewPageHeading is displayed
+Verify: @NewPageHeading is displayed
+End::
+If:: @alphanumericText is present
+Verify: @alphanumericText is present
+End::
+Step: pause 2 sec
+Step: print "Hello tesbo"
+Verify: @NewPageHeading is displayed
+If:: @NewPageHeading text is equal to 'decimals'
+Verify: @NewPageHeading text is equal to 'Decimals'
+End::
+If:: @NewTest text is equal to 'The decimal point goes between Ones and Tenths.'
+Verify: @NewTest text is equal to 'The decimal point goes between Ones and Tenths.'
+End::
+If:: @NewTest text is equal to 'The decimal point goes between'
+Verify: @NewTest text contains is 'The decimal point'
+End::
+Step: pause 2 sec
+Step: print "Multiple if condition passed"
+End
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Test: Verify multiple else if condition
+#All #ifTest123
+Step: Open URL 'https://www.mathsisfun.com/decimals.html'
+Step: pause 2 sec
+If:: @alphanumericText123 is present OR @NewPageHeading is displayed
+Verify: @NewPageHeading is displayed
+Else If:: @alphanumericText is present
+Step: print "NewPageHeading is not display"
+End::
+
+Step: pause 2 sec
+Step: print "Hello tesbo"
+Verify: @NewPageHeading is displayed
+
+If:: @NewPageHeading text is equal to 'decimals'
+Verify: @NewPageHeading text is equal to 'Decimals'
+Else If:: @NewPageHeading text is equal to 'Decimals'
+Step: Print "Decimals is equal to element value"
+Else::
+Step: Print "Decimals is not equal to element value"
+End::
+``
+If:: @NewTest text is equal to 'The decimal point goes between'
+Verify: @NewTest text contains is 'The decimal point'
+Else If:: @NewTest text is equal to 'The decimal'
+Step: print "NewTest is not found"
+Else If:: @NewTest text is equal to 'The decimal point goes between Ones and Tenths.'
+Verify: @NewTest text is equal to 'The decimal point goes between Ones and Tenths.'
+Else If:: @NewTest is displayed
+Step: print "NewTest is display"
+Else If:: @NewPageHeading text is equal to 'decimals'
+Step: print "NewPageHeading is display"
+End::
+
+Step: pause 2 sec
+Step: print "Multiple if condition passed"
+End
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Test: Verify multiple if else condition
+#All #ifTest
+Step: Open URL 'https://www.mathsisfun.com/decimals.html'
+Step: pause 2 sec
+If:: @NewPageHeading1 is displayed
+Verify: @NewPageHeading is displayed
+Else::
+Step: print "NewPageHeading is not display"
+End::
+Step: pause 2 sec
+Step: print "Hello tesbo"
+Verify: @NewPageHeading is displayed
+If:: @NewPageHeading text is equal to 'decimals'
+Verify: @NewPageHeading text is equal to 'Decimals'
+Else::
+Verify: @alphanumericText is present
+End::
+If:: @NewTest text is equal to 'The decimal point goes between Ones and Tenths.'
+Verify: @NewTest text is equal to 'The decimal point goes between Ones and Tenths.'
+End::
+If:: @NewTest text is equal to 'The decimal point goes between'
+Verify: @NewTest text contains is 'The decimal point'
+Else::
+Step: print "NewTest is not found"
+End::
+Step: pause 2 sec
+Step: print "Multiple if condition passed"
+End
+
+
+
+===========================================================================================================
+Nested IF
+===========================================================================================================
+
+Test: Verify nested if condition
+#All #ifTestNested
+Step: Open URL 'https://www.mathsisfun.com/decimals.html'
+Step: pause 2 sec
+If:: @NewPageHeading is displayed
+Verify: @NewPageHeading is displayed
+If:: @alphanumericText is present
+Verify: @alphanumericText is present
+End::
+Step: pause 2 sec
+Step: print "Hello tesbo"
+If:: @NewPageHeading text is equal to 'decimals'
+Verify: @NewPageHeading text is equal to 'Decimals'
+Else::
+Verify: @NewTest text is equal to 'The decimal point goes between Ones and Tenths.'
+End::
+If:: @NewTest text contains is 'The decimal point goes between'
+Verify: @NewTest text contains is 'The decimal point'
+Else::
+Step: print "Else not Execute"
+End::
+
+End::
+
+
+Step: pause 2 sec
+Step: print "Multiple if condition passed"
+End
+
+
+
+===========================================================================================================
 
 Test: Verify else condition
 #All #if
@@ -47,7 +217,7 @@ Test: Verify And condition
 #All #if
 Step: Open URL 'https://www.mathsisfun.com/numbers/counting.html'
 Step: pause 2 sec
-If:: @ThreadNumber text is grater then equal to '2' And @SecondNum text contains is 'Count to 100'
+If:: @ThreadNumber text is greater then equal to '2' And @NumTitle is present
 Verify: @NewPageHeading text is equal 'Counting'
 Step: pause 2 sec
 Else::

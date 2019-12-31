@@ -2,8 +2,8 @@
   "run": {
     "baseUrl": "https://www.phptravels.net/admin",
     "by": {
-      "suite": [
-        "smoke","Regression"
+      "tag": [
+        "dataSet1"
       ]
     },
     "browser": {
@@ -14,10 +14,10 @@
 
     "parallel": {
       "status": true,
-      "count": "3"
+      "count": "1"
     },
     "retryAnalyser":{
-      "count":"2"
+      "count":"0"
     },
     "binaries": {
       "chrome": ""

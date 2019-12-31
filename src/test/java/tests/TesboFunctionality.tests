@@ -25,7 +25,7 @@ End
 Test: File upload functionality
 #All #TBF
 Step: Open URL 'http://demo.guru99.com/test/upload/'
-Step: Upload File 'E:\Project\Tesbo\NewTB\Tesbo-Skeleton\Tesbo-Skeleton\src\test\Resources\GmailData.xlsx' @UploadTextBox
+Step: Upload File 'C:\Users\QAble\Desktop\tesbo\TB\Tesbo-Skeleton\src\test\Resource\GmailData.xlsx ' @UploadTextBox
 Step: Click on @sendButton
 Step: pause 5 sec
 End

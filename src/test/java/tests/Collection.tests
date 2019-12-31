@@ -1,11 +1,25 @@
+DataSet:
+{
+    "Credentials": {
+          "travelUser": "admin@phptravels.com",
+          "travelPass": "demoadmin"
+     }
+     "GmailUsers": {
+        "excelFile": "E:\Project\Tesbo\NewTB\Tesbo-Skeleton\Tesbo-Skeleton\src\test\Resource\GmailData.xlsx"
+     }
+     "LinkedinUsers[1]": {
+         "excelFile": "E:\Project\Tesbo\NewTB\Tesbo-Skeleton\Tesbo-Skeleton\src\test\Resource\GmailData.xlsx"
+      }
+}
+
+
 Collection Name: login in phptravels
 Step: Pause until @Email_Box is display
 Step: pause 1 sec
-Step: Enter 'admin@phptravels.com' in to @Email_Box
-Step: Enter 'demoadmin' in @Password_Box
+Step: Enter {DataSet.Credentials.travelUser} in to @Email_Box
+Step: Enter {DataSet.Credentials.travelUser} in @Password_Box
 Step: Click on @LoginBtn
 End
-
 
 Test: verify custom step functionality
 #All #collection
@@ -20,3 +34,4 @@ Code: Verify profile page title
 Verify: @LogoutBtn is Displayed
 Step: Pause 2 sec
 End
+

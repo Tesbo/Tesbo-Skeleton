@@ -1,6 +1,6 @@
 
 Test: Verify pause until element is disappear functionality
-#All #pause
+#All #pause01
 Step: Open URL 'https://material-ui.com/components/progress/'
 Step: Scroll to coordinate (50,1000)
 Step: Click on @AcceptTermsButton

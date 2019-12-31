@@ -1,4 +1,5 @@
 {
+  "ForgotPassword":"//strong[contains(text(),'Forget')]",
   "ForgotPasswordPageText": "//div[@class='text-center']",
   "sendButton":"//*[@name='send']",
   "UploadTextBox":"//*[@id='uploadfile_0']",

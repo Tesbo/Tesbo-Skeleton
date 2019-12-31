@@ -1,0 +1,77 @@
+DataSet:
+{
+     "Credentials": {
+          "linkedin1": "9033660480",
+          "password1": "tesbo@2018",
+          "linkedin2": "aenkymistry26@gmail.com",
+          "password2": "aki26991",
+          "amazonUser": "9033660480",
+          "amazonPass": "Ankit216",
+          "travelUser": "admin@phptravels.com",
+          "travelPass": "demoadmin",
+          "errorMessage":"",
+          "errorMessage1":"",
+          "numberOfTextbox":"",
+          "elementListOfTextbox":"",
+     }
+     "DataNew": {
+           "linkedin1": "",
+           "password1": "tesbo@2018",
+     }
+}
+
+Test: Local variable functionality
+#All #variable
+Step: Pause until @Email_Box is display
+Step: Define {userEmail} variable and put 'admin@phptravels.com' value in it
+Step: Define {userPassword} variable and assign 'demoadmin' value in it
+Step: Enter {userEmail} in to @Email_Box
+Step: Enter {userPassword} in @Password_Box
+Step: Click on @LoginBtn
+End
+
+Test: define and set Local variable functionality
+#All #variable
+Step: Pause until @Email_Box is display
+Step: Define {userEmail} variable
+Step: Define {userPassword} variable and assign 'demoadmin' value in it
+Step: Get text of @LoginBtn variable and put in to {userEmail}
+Step: Enter {userEmail} in to @Email_Box
+Step: Enter {userPassword} in @Password_Box
+Step: Click on @LoginBtn
+End
+
+Test: Set Variable value
+#vr
+DataSet: Credentials
+Step: open url 'https://accounts.google.com/signup'
+Step: Click on @Next
+Step: Get text of @FirstNameError and set it on {errorMessage}
+Step: Get text of @LastNameError and put it on {travelUser}
+Step: Get text of @PasswordError and set it on {travelPass}
+Step: Get text of @UserNameError and assign it on {errorMessage}
+Step: Get text of @UserNameError and put it on {linkedin1}
+Step: Get text of @UserNameError and assign it on {password1}
+Step: Get size of @textBoxes and assign it on {numberOfTextbox}
+Step: open url 'https://www.mathsisfun.com/numbers/counting.html'
+Step: Get attribute 'href' of @AlgebraTab and set in to {elementListOfTextbox}
+Step:  Get page title and assign it on {elementListOfTextbox}
+End
+
+Test: T1 login on phptravels DataSet global Credentials
+#T1 #regression #vr
+DataSet: Credentials
+Step: Open URL 'https://www.phptravels.net/admin'
+Step: pause 2 sec
+Step: Enter {travelUser} in to @Email_Box
+Step: Enter {errorMessage} in @Password_Box
+Step: Click on @LoginBtn
+Step: define {NewUser1} and assign 'Ankit Mistry'
+Step: pause 2 sec
+Step: Enter {elementListOfTextbox} in to @Email_Box
+Step: pause 10 sec
+Step: Scroll to coordinate (300,250)
+Step: pause 2 sec
+Step: scroll to top
+Step: Pause 2 sec
+End

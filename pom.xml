@@ -12,7 +12,7 @@
     <repositories>
         <repository>
             <id>Tesbo</id>
-            <url>http://download.tesbo.io/artifactory/libs-release-local/</url>
+            <url>https://download.tesbo.io/artifactory/libs-release-local/</url>
         </repository>
     </repositories>
 
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>Tesbo</groupId>
             <artifactId>Tesbo-Dev</artifactId>
-            <version>0.0.5</version>
+            <version>0.0.6.8</version>
         </dependency>
     </dependencies>
 
