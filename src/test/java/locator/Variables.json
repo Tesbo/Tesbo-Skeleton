@@ -1,0 +1,4 @@
+{
+  "AlgebraTab": "(//a[contains(text(),'Algebra')])[1]",
+  "textBoxes": "//input[@type='text']"
+}

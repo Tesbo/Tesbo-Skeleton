@@ -1,0 +1,51 @@
+
+Test: Local variable functionality
+#All #variable
+Step: Pause until @Email_Box is display
+Step: Define {userEmail} variable and put 'admin@phptravels.com' value in it
+Step: Define {userPassword} variable and assign 'demoadmin' value in it
+Step: Enter {userEmail} in to @Email_Box
+Step: Enter {userPassword} in @Password_Box
+Step: Click on @LoginBtn
+End
+
+Test: define and set Local variable functionality
+#All #variable
+Step: Pause until @Email_Box is display
+Step: Define {userEmail} variable
+Step: Define {userPassword} variable and assign 'demoadmin' value in it
+Step: Get text of @LoginBtn variable and put in to {userEmail}
+Step: Enter {userEmail} in to @Email_Box
+Step: Enter {userPassword} in @Password_Box
+Step: Click on @LoginBtn
+End
+
+Test: Set global Variable value
+#All #variable
+DataSet: Credentials
+Step: open url 'https://accounts.google.com/signup'
+Step: Click on @Next
+Step: Get text of @FirstNameError and set it on {firstNameErrorMessage}
+Step: Get text of @LastNameError and put it on {lastNameErrorMessage}
+Step: Get text of @PasswordError and set it on {passwordErrorMessage}
+Step: Get text of @UserNameError and assign it on {userNameErrorMessage}
+Step: Get size of @textBoxes and assign it on {numberOfTextbox}
+Verify: @FirstNameError text is equal to {firstNameErrorMessage}
+Verify: @LastNameError text is equal to {lastNameErrorMessage}
+Verify: @UserNameError text is equal to {userNameErrorMessage}
+Step: open url 'https://www.mathsisfun.com/numbers/counting.html'
+Step: Get page title and assign it on {pageTitle}
+Step: Get attribute 'href' of @AlgebraTab and set in to {Data.ElementData.attributeValue}
+Step: Get css value 'margin-top' of @AlgebraTab and put it to {Data.ElementData.cssValue}
+Verify: Page Title is equal to {pageTitle}
+End
+
+Test: Reuse assign global Variable value
+#All #variable
+DataSet: Credentials
+Step: open url 'https://accounts.google.com/signup'
+Step: Click on @Next
+Verify: @FirstNameError text is equal to {firstNameErrorMessage}
+Verify: @LastNameError text is equal to {lastNameErrorMessage}
+Verify: @UserNameError text is equal to {userNameErrorMessage}
+End

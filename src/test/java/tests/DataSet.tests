@@ -1,17 +1,3 @@
-DataSet:
-{
-    "Credentials": {
-          "travelUser": "admin@phptravels.com",
-          "travelPass": "demoadmin",
-     }
-     "GmailUsers": {
-        "excelFile": "E:\Project\Tesbo\NewTB\Tesbo-Skeleton\Tesbo-Skeleton\src\test\Resource\GmailData.xlsx"
-     }
-     "LinkedinUsers[1]": {
-         "excelFile": "E:\Project\Tesbo\NewTB\Tesbo-Skeleton\Tesbo-Skeleton\src\test\Resource\GmailData.xlsx"
-      }
-}
-
 Test: verify Data Set functionality
 #All #dataSet
 DataSet: Credentials
@@ -22,10 +8,10 @@ Step: Enter {travelPass} in @Password_Box
 End
 
 Test: verify Data Set functionality without declare data set
-#All #dataSet1
+#All #dataSet
 Step: Open URL 'https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin'
-Step: Enter {DataSet.Credentials.travelUser} into @emailTextBox
-Step: Enter {DataSet.Credentials.travelPass} into @passwordTextBox
+Step: Enter {Data.Credentials.travelUser} into @emailTextBox
+Step: Enter {Data.Credentials.travelPass} into @passwordTextBox
 Step: Click on @signInTextBox
 End
 
@@ -35,7 +21,7 @@ DataSet: LinkedinUsers[1]
 Step: Open URL 'https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin'
 Step: Enter {userName} into @emailTextBox
 Step: pause 1 sec
-Step: Enter {DataSet.Credentials.travelPass} into @passwordTextBox
+Step: Enter {Data.Credentials.travelPass} into @passwordTextBox
 Step: Click on @signInTextBox
 End
 

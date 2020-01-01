@@ -1,0 +1,29 @@
+{
+  "Credentials": {
+    "linkedin": "9033660480",
+    "password": "tesbo@2018",
+    "linkedin1": "aenkymistry26@gmail.com",
+    "password2": "aki123",
+    "amazonUser": "9033660480",
+    "amazonPass": "Ankit216",
+    "firstNameErrorMessage":"",
+    "lastNameErrorMessage":"",
+    "passwordErrorMessage": "",
+    "userNameErrorMessage": "",
+    "pageTitle": "",
+    "numberOfTextbox":"",
+    "elementListOfTextbox":""
+  },
+  "ElementData": {
+    "attributeValue": "",
+    "cssValue": "",
+    "linkedin1": "",
+    "password1": "tesbo@2018"
+  },
+  "GmailUsers": {
+    "excelFile": "E:/Project/Tesbo/NewTB/Tesbo-Skeleton/Tesbo-Skeleton/src/test/Resource/GmailData.xlsx"
+  },
+  "LinkedinUsers[1]": {
+    "excelFile": "E:/Project/Tesbo/NewTB/Tesbo-Skeleton/Tesbo-Skeleton/src/test/Resource/GmailData.xlsx"
+  }
+}
