@@ -20,6 +20,32 @@
     "linkedin1": "",
     "password1": "tesbo@2018"
   },
+  "person" :{
+    "firstName" : ["Viral","Ankit","Mahesh"],
+    "lastName" : ["Patel","Mistry","Patel"],
+    "userName": ["vir","aenky","mahi"],
+    "password": ["vir123","aki123","hahi123"]
+  },
+  "personDetails": [
+    {
+      "firstName": "viral",
+      "lastName": "Patel",
+      "userName": "vir",
+      "password": "vir123"
+    },
+    {
+      "firstName": "Ankit",
+      "lastName": "Mistry",
+      "userName": "aenky",
+      "password": "aki123"
+    },
+    {
+      "firstName": "Mahesh",
+      "lastName": "Patel",
+      "userName": "mahi",
+      "password": "mahi123"
+    }
+  ],
   "GmailUsers": {
     "excelFile": "E:/Project/Tesbo/NewTB/Tesbo-Skeleton/Tesbo-Skeleton/src/test/Resource/GmailData.xlsx"
   },

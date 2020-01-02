@@ -45,4 +45,28 @@ Step: Enter {password} into @passwordTextBox
 Step: Click on @signInTextBox
 End
 
+Test: SignUp in gmail with person data set
+#All #dataSet
+DataSet: person
+Step: open url 'https://accounts.google.com/signup'
+Step: Click on @Next
+Step: Enter {firstName} on @FirstName
+Step: Enter {lastName} on @LastName
+Step: clear @UserName
+Step: Enter {userName} on @UserName
+Step: Enter {password} on @Password
+End
+
+Test: SignUp in gmail with person details data set
+#All #dataSet
+DataSet: personDetails
+Step: open url 'https://accounts.google.com/signup'
+Step: Click on @Next
+Step: Enter {firstName} on @FirstName
+Step: Enter {lastName} on @LastName
+Step: clear @UserName
+Step: Enter {userName} on @UserName
+Step: Enter {password} on @Password
+End
+
 

@@ -4,5 +4,4 @@
   "Password_Box":"//INPUT[@type='password']",
   "LoginBtn":"//span[contains(text(),'Login')]",
   "LogoutBtn":"//strong[contains(text(), 'Logout')]"
-
 }
