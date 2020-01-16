@@ -1,9 +1,10 @@
 {
   "run": {
     "baseUrl": "https://www.phptravels.net/admin",
+    "seleniumAddress" : "http://grid.tesbo.io:4444/wd/hub",
     "by": {
       "tag": [
-        "variable"
+        "navigate"
       ]
     },
     "browser": {
@@ -22,7 +23,18 @@
     "binaries": {
       "chrome": ""
     },
+    "capabilities": {
+      "chrome": {
+        "version" : "79.0.3945.79",
+        "platform" : "LINUX"
+      },
+      "firefox": {
+        "version" : "71.0",
+        "platform" : "LINUX"
+      }
+    },
 
+    "IsGrid" : true,
     "highlightElement": true
   },
   "cloudIntegration" : {
